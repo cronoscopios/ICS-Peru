@@ -3699,7 +3699,11 @@ width: 25% !important;
 float: center;
 position: relative;
 }
-
+hr.style4 {
+border-top: 2px solid #b6d16b !important;
+width: 50% !important;
+position: relative;
+}  
 
 small,
 .small {
@@ -3809,6 +3813,11 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .bg-white {
   background-color: #fff !important; }
+
+.bg-grey {
+  background: #d8d8d8 !important;
+  background: rgba(216, 216, 216) !important;
+ } 
 
 .bg-transparent {
   background-color: transparent !important; }
@@ -5984,10 +5993,25 @@ label {
     position: relative;
     max-width:100%;
 }
+#contacto_section {
+    background: url(../img/bg_contacto.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    max-width:100%;
+}
 
 
 .layer {
     background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.layer2 {
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
