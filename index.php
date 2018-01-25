@@ -6,98 +6,18 @@
   <title>ICS PERÚ - Consultoría en Sistemas de Gestión</title>
   <link rel="icon" href="./img/favicon32x32.png">
 
-  <!-- External Resource -->
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel='stylesheet' type='text/css'/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel='stylesheet' type='text/css'/>  
+  <!-- Resource style -->
+  <?php include 'inc/head_common.php';?>
   
-  <!-- Local Resource -->
-  <link rel="stylesheet" href="css/style_2.css"> <!-- Resource style_2 -->
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	
 </head>
 <body>
-	<nav id="cd-vertical-nav">
-		<ul>
-			<li>
-				<a href="#section1" data-number="1">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Inicio</span>
-				</a>
-			</li>
-			<li>
-				<a href="#section2" data-number="2">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Consultoria</span>
-				</a>
-			</li>
-			<li>
-				<a href="#sectionIII" data-number="3">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Auditoría</span>
-				</a>
-			</li>
-			<li>
-				<a href="#section4" data-number="4">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Entrenamiento</span>
-				</a>
-			</li>
-			<li>
-				<a href="#section5" data-number="5">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Innóvate</span>
-				</a>
-			</li>
-      <li>
-        <a href="#section6" data-number="6">
-          <span class="cd-dot"></span>
-          <span class="cd-label">Software</span>
-        </a>
-      </li>
-      <li>
-        <a href="#section7" data-number="7">
-          <span class="cd-dot"></span>
-          <span class="cd-label">Contacto</span>
-        </a>
-      </li>
-			
-		</ul>
-	</nav>
-	<a class="cd-nav-trigger cd-img-replace">
-		Open navigation
-		<span></span>
-	</a>
 
-	<section id="section1" class="cd-section">
-		<div class="py-99">
-   <nav class="navbar navbar-expand-md navbar-light text-uppercase p-2 bg-light-opa sticky-top text-left">
-    <div class="container-fluid">
-      <a class="m-2 col-md-6 col-sm-3" href="index.html">
-        <img class="logo" src="img/logo.png"> 
-      </a> 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span> 
-      </button>
-      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
-        <ul class="navbar-nav list-unstyled">
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="nosotros.html"><span>nosotros</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="auditoria.html"><span>servicios</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#"><span>software</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="contacto.html"><span>Contactos</span></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+	<?php include 'inc/aside.php';?> <!--bullet nav right --> 
+
+<section id="section1" class="cd-section">
+	<div class="py-99">
+  <?php include 'inc/navbar.php';?> <!--Main NavBar --> 
+   
   
 <div class="container">
   <div class="layer2"></div>
@@ -133,7 +53,7 @@
             </div>
           </form>
         </div>
-        <div class="col-md-6 my-3 text-left">
+        <div id="texto_index" class="col-md-6 my-3 text-left">
           <h1 class="text-left text-light display-4"> Consultoría en
             <br>Sistemas de Gestión</h1>
           <p class="text-left lead text-light ">
@@ -173,13 +93,13 @@
             <div class="col-md-6 m-0 p-0 w-100 thumbnail text-center">
               <img src="img/img_2.png" class="d-block p-0 m-0 w-100 img-responsive" alt="calidad">
                <div class="caption carousel-caption">
-                <h6><a href="#">Calidad</a></h6>
+                <h6><a href="calidad.php">Calidad</a></h6>
             </div> 
             </div>
             <div class="col-md-6 m-0 p-0 w-100 thumbnail text-center">
               <img src="img/img_3.png" class="d-block p-0 m-0 w-100 img-responsive" alt="Medio Ambiente">
               <div class="caption carousel-caption">
-                <h6><a href="#">Medio Ambiente</a></h6>
+                <h6><a href="ambiente.php"><sup>Medio<br>Ambiente</sup></a></h6>
               </div>  
             </div>
           </div>
@@ -188,14 +108,14 @@
             <div class="col-md-6 m-0 p-0 w-100 thumbnail text-center">
               <img src="img/img_4.png" class="d-block p-0 m-0 w-100 img-responsive" alt="Seguridad Salud">
               <div class="caption carousel-caption">
-                <h6><a href="#">Seguridad Salud</a></h6>
+                <h6><a href="seguridad.php"><sup>Seguridad<br>Salud</sup></a></h6>
               </div> 
             </div>
 
             <div class="col-md-6 m-0 p-0 w-100 thumbnail text-center">
               <img src="img/img_5.png" class="d-block p-0 m-0 w-100 img-responsive" alt="Inocuidad"> 
               <div class="caption carousel-caption">
-                <h6><a href="#">Inocuidad</a></h6>
+                <h6><a href="alimento.php">Inocuidad</a></h6>
               </div> 
             </div>
           </div>
@@ -210,8 +130,9 @@
           equipo altamente especializado en el rubro y
           el estándar a implementar.
           </p>
-          <button class="btn-verMas btn btn-warning btn-submit text-light" href="#" style="border-color:#fff;">ver más</button>
-         
+          <a href="consultoria.php">
+            <button class="btn-verMas btn btn-warning btn-submit text-light" style="border-color:#fff;">ver más</button>
+          </a>
       </div>
     </div>
   </div>
@@ -230,7 +151,7 @@
           nuestros clientes y reforzar la confianza de
           las partes interesadas.
           </p>
-          <a href="auditoria.html">
+          <a href="auditoria.php">
             <button class="btn-verMas btn btn-warning btn-submit text-muted" style="border-color:#b6d16b;">ver más</button>
           </a>
       </div>
@@ -254,33 +175,13 @@
             calidad, seguridad y cuidado del medio ambiente alineada al cumplimiento de los objetivos
             estratégicos de la organización y a su estilo de dirección.
           </p>
-          <button class="btn-verMas2 btn btn-warning btn-submit text-light" href="#" style="border-color:#fff;">ver más</button>
-
+          <a href="outsourcing.php">
+            <button class="btn-verMas2 btn btn-warning btn-submit text-light" style="border-color:#fff;">ver más</button>
+          </a>
         </div>
       </div>
     </div>
 </div>
-
-<!-- 
-  <section id="section4" class="cd-section4">
-		<div class="bg-success w-100 text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="text-center display-4 text-light">Outsourcing</h3>
-          <hr class="style2" style="float:center !important;">
-          <p class="text-center text-light lead my-6">
-            En ICS diseñamos planes de outsourcing a la medida de cada organización en base
-            a su estructura, capacidad y necesidades. Para apoyar en el desarrollo de una cultura de
-            calidad, seguridad y cuidado del medio ambiente alineada al cumplimiento de los objetivos</p>           
-            <button class="" href="#">ver más</button>
-          
-
-        </div>
-      </div>
-    </div>
-  </div>
-	</section> cd-section -->
 
 	<section id="section4" class="cd-section">
 		 <div class="p-0 m-0 w-100">
@@ -299,7 +200,9 @@
           a la medida de cada organización en base a sus
           requerimientos en todas nuestras áreas de actividad.
           </p>
-          <button class="btn-verMas btn btn-warning btn-submit text-muted" href="#" style="border-color:#b6d16b;">ver más</button>
+          <a href="formacion.php">
+            <button class="btn-verMas btn btn-warning btn-submit text-muted"  style="border-color:#b6d16b;">ver más</button>
+          </a>
       </div>
       </div>
     </div>
@@ -319,7 +222,9 @@
           Puedes obtener financiación hasta S/ 45,000 para proyectos de implementación y
           certificación y hasta S/ 22,000 para proyectos de renovación y migración.
           </p>
-          <button class="btn-verMas btn btn-warning btn-submit text-muted" href="#" style="border-color:#b6d16b;">ver más</button>
+          <a href="innovate.php">
+            <button class="btn-verMas btn btn-warning btn-submit text-muted" style="border-color:#b6d16b;">ver más</button>
+          </a>
       </div>
         <div class="col-md-6 w-100 m-0 p-0">
           <img class="d-block w-100 img-fluid h-100 m-0 p-0" src="./img/img_8.png"> 
@@ -380,59 +285,8 @@
   </div>
 
  
-  <!-- Footer Start -->
-  <div class="py-5 bg-dark text-white">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center align-self-center"> 
-         <img class="p-5" src="img/logo_blanco.png">
-         <address>
-          <p class="text-center lead"> 
-            Llámanos (+51) 01 241 4202
-            <br>
-            <a href="#">info@ics-peru.com</a>
-            <br>Av. José Pardo 190, Of. 4, Miraflores. Lima-Perú. 
-          </p>
-        </address>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="bg-dark text-white py-4">
-    <div class="container">
-      <div class="row" style="border-top:1px solid white;">
-        <div class="col-md-12 mt-2 text-center">
-          <p class="lead">Todos los derechos reservados.</p>
-        </div>
-      </div>
-    </div>
-  </div>
- 
-
-<!-- local Resource modernizr.js -->
-<script src="js/modernizr.js"></script> 
-
-<!-- local Resource jQuery-2.1.1.js -->
-<script src="js/jquery-2.1.1.js"></script>
-
-<!-- local Resource main.js -->
-<script src="js/main.js"></script> 
-
-<!-- local Resource slick-logo.js -->
-<script src="js/slick-logo.js"></script>
-
-<!-- External Resource bootstrap.min.js 4.0.0-beta -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
-<!-- External Resource jquery-3.2.1.slim.min.js -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-<!-- External Resource popper.min.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
- 
-<!-- External Resource slick.min.js Carousel logo -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
-
+<?php include 'inc/footer.php';?> 
+<?php include 'inc/footer_common.php';?>
 
 </body>
 </html>
